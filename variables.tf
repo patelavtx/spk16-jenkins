@@ -29,34 +29,6 @@ variable "region" {
   type        = string
 }
 
-variable "spoke_cidrs" {
-    description = "spoke vpc range"
-    type = list(string)
-}
-
-variable "gw1_snat" {
-  type        = string
-}
-
-variable "gw2_snat" {
-  type        = string
-}
-
-variable "dnatip" {
-  type        = string
-}
-
-variable "dnatip2" {
-  type        = string
-}
-
-variable "dstcidr" {
-  type        = string
-}
-
-variable "dstcidr2" {
-  type        = string
-}
 
 
 variable "nat_attached" {
